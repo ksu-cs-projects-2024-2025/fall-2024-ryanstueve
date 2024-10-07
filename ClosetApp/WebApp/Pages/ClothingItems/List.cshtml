@@ -1,0 +1,50 @@
+﻿@page
+@model WebApp.Pages.ClothingItems.ListModel
+@{
+    
+}
+@using System.Drawing;
+@functions{
+    public Image byteArrayToImage(byte[] byteArrayIn)
+    {
+        using (var ms = new MemoryStream(byteArrayIn))
+        {
+            return Image.FromStream(ms);
+        }
+    }
+}
+
+<h1 class="mb-3">List of Clothing Items</h1>
+
+@if (Model.ClothingItems != null && Model.ClothingItems.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Color</th>
+                <th>Type</th>
+                <th>Image</th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model.ClothingItems)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Color</td>
+                    <td>@item.Type</td>
+                    <td><img src="data:image/*;base64, @Convert.ToBase64String(item.Image)" height="10%" width="10%"/></td>
+                    <td>
+                        <a href="/ClothingItems/Edit/@item.Id" class="btn btn-dark">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No clothing items found</p>
+}

@@ -1,4 +1,10 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\ClosetApp",
+    "\\ClosetApp\\WebApp",
+    "\\ClosetApp\\WebApp\\Data"
+  ],
+  "SelectedNode": "\\ClosetApp\\WebApp\\Data\\TestDbContext.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,2 @@
+C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
