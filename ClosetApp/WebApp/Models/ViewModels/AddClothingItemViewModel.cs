@@ -1,12 +1,16 @@
-﻿using System.Drawing;
+﻿using Microsoft.Identity.Client;
+using System.Drawing;
+using WebApp.Models.Domain;
 
 namespace WebApp.Models.ViewModels
 {
     public class AddClothingItemViewModel
     {
-        public string Color { get; set; }
-        public string Type { get; set; }
-
+        public ClothesColor Color { get; set; }
+        public ClothesMaterial Material { get; set; }
+        public string TopOrBottom { get; set;}
+        public TopDesign TopDesign { get; set; }
+        public BottomDesign BottomDesign { get; set; }
         public IFormFile Image { get; set; }
     }
 }

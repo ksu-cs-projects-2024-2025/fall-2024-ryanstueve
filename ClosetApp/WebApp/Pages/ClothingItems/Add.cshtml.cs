@@ -32,13 +32,29 @@ namespace WebApp.Pages.ClothingItems
             {
                 await AddClothingItemRequest.Image.CopyToAsync(memoryStream);
                 //Convert viewmodel to domain model
-
-                var clothingItemDomainModel = new TestClothingItem
+                ClothingItem clothingItemDomainModel;
+                if(AddClothingItemRequest.TopOrBottom == "Top") 
                 {
-                    Color = AddClothingItemRequest.Color,
-                    Type = AddClothingItemRequest.Type,
-                    Image = memoryStream.ToArray()
-                };
+
+                    clothingItemDomainModel = new TopBaseClothingItem
+                    (
+                        AddClothingItemRequest.Color,
+                        AddClothingItemRequest.Material,
+                        AddClothingItemRequest.TopDesign,
+                        memoryStream.ToArray()
+                    );
+                }
+                else
+                {
+                    clothingItemDomainModel = new BottomLayerClothingItem
+                    (
+                        AddClothingItemRequest.Color,
+                        AddClothingItemRequest.Material,
+                        AddClothingItemRequest.BottomDesign,
+                        memoryStream.ToArray()
+                    );
+                }
+                
 
                 dbContext.TestClothingItems.Add(clothingItemDomainModel);
                 await dbContext.SaveChangesAsync();

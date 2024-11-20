@@ -1,11 +1,13 @@
-﻿namespace WebApp.Models.ViewModels
+﻿using WebApp.Models.Domain;
+
+namespace WebApp.Models.ViewModels
 {
     public class EditClothingItemViewModel
     {
         public Guid Id { get; set; }
 
-        public string Color { get; set; }
+        public ClothesColor Color { get; set; }
 
-        public string Type { get; set; }
+        public ClothesMaterial Material { get; set; }
     }
 }
