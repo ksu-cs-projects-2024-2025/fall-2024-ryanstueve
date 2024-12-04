@@ -6,14 +6,14 @@ using WebApp.Models.ViewModels;
 using System.Drawing;
 using Microsoft.Extensions.Hosting.Internal;
 
-namespace WebApp.Pages.ClothingItems
+namespace WebApp.Pages.AddViewPages
 {
     public class AddModel : PageModel
     {
-        private readonly TestDbContext dbContext;
+        private readonly RealDbContext dbContext;
 
 
-        public AddModel(TestDbContext dbContext)
+        public AddModel(RealDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
@@ -56,7 +56,7 @@ namespace WebApp.Pages.ClothingItems
                 }
                 
 
-                dbContext.TestClothingItems.Add(clothingItemDomainModel);
+                dbContext.ClothingItems.Add(clothingItemDomainModel);
                 await dbContext.SaveChangesAsync();
 
                 ViewData["Message"] = "Clothing Item added Successfully!";

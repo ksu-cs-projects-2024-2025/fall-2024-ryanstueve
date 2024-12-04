@@ -29,11 +29,7 @@ C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\obj\Debug\net8
 C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\obj\Debug\net8.0\WebApp.pdb
 C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\obj\Debug\net8.0\WebApp.genruntimeconfig.cache
 C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\obj\Debug\net8.0\ref\WebApp.dll
-C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\bin\Debug\net8.0\FastExpressionCompiler.dll
-C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\bin\Debug\net8.0\RulesEngine.dll
-C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll
 C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\obj\Debug\net8.0\WebApp.csproj.AssemblyReference.cache
 C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\obj\Debug\net8.0\WebApp.csproj.Up2Date
 C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\bin\Debug\net8.0\Azure.Core.dll
@@ -289,3 +285,6 @@ C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\bin\Debug\net8
 C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\obj\Debug\net8.0\WebApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\bin\Debug\net8.0\NRules.Fluent.dll
+C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\bin\Debug\net8.0\NRules.RuleModel.dll
+C:\Users\ryanj\source\repos\fall-2024-ryanstueve\ClosetApp\WebApp\bin\Debug\net8.0\NRules.dll

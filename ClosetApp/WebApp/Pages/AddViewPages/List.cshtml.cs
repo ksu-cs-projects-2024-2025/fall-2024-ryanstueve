@@ -4,15 +4,15 @@ using System.Drawing;
 using WebApp.Data;
 using WebApp.Models.Domain;
 
-namespace WebApp.Pages.ClothingItems
+namespace WebApp.Pages.AddViewPages
 {
     public class ListModel : PageModel
     {
-        private readonly TestDbContext dbContext;
+        private readonly RealDbContext dbContext;
 
-        public List<TestClothingItem> ClothingItems { get; set; }
+        public List<ClothingItem> ClothingItems { get; set; }
 
-        public ListModel(TestDbContext dbContext)
+        public ListModel(RealDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
@@ -20,7 +20,7 @@ namespace WebApp.Pages.ClothingItems
 
         public void OnGet()
         {
-            ClothingItems = dbContext.TestClothingItems.ToList();
+            ClothingItems = dbContext.ClothingItems.ToList();
         }
         public Image byteArrayToImage(byte[] byteArrayIn)
         {

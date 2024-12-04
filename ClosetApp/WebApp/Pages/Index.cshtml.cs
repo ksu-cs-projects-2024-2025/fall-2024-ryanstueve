@@ -9,19 +9,19 @@ namespace WebApp.Pages
     public class IndexModel : PageModel
     {
 
-        private readonly TestDbContext dbContext;
+        private readonly RealDbContext dbContext;
 
-        public List<TestClothingItem> ClothingItems { get; set; }
+        public List<ClothingItem> ClothingItems { get; set; }
 
 
-        public IndexModel(TestDbContext dbContext)
+        public IndexModel(RealDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
 
         public void OnGet()
         {
-            ClothingItems = dbContext.TestClothingItems.ToList();
+            ClothingItems = dbContext.ClothingItems.ToList();
         }
     }
 }

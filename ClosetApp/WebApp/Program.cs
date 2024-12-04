@@ -15,6 +15,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString);
 });
 
+builder.Services.AddDbContext<RealDbContext>(options =>
+{
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    options.UseSqlServer(connectionString);
+});
+
 builder.Services.AddDbContext<TestDbContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("TestConnetionString");

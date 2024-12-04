@@ -10,6 +10,6 @@ namespace WebApp.Data
             
         }
 
-        public DbSet<TestClothingItem> TestClothingItems { get; set; }
+        public DbSet<TestClothingItem> ClothingItems { get; set; }
     }
 }

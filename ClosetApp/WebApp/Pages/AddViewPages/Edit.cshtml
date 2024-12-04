@@ -1,5 +1,6 @@
 ﻿@page "{id:Guid}"
-@model WebApp.Pages.ClothingItems.EditModel
+@model WebApp.Pages.AddViewPages.EditModel
+@using WebApp.Models.Domain;
 @{
     var message = ViewData["Message"]?.ToString();
 }
@@ -20,13 +21,22 @@
 
     <div class="mb-3">
         <label class="form-label">Color</label>
-        <input type="text" class="form-control" asp-for="EditClothingItemViewModel.Color" />
+        <--input type="text" class="form-control" asp-for="AddClothingItemRequest.Color" -- />
+        <select class="form-control"
+                asp-for="EditClothingItemViewModel.Color"
+                asp-items="@Html.GetEnumSelectList<ClothesColor>()">
+        </select>
     </div>
 
     <div class="mb-3">
         <label class="form-label">Type</label>
-        <input type="text" class="form-control" asp-for="EditClothingItemViewModel.Type" />
+        <--input type="text" class="form-control" asp-for="EditClothingItemViewModel.Material" --/>
+        <select class="form-control"
+                asp-for="EditClothingItemViewModel.Material"
+                asp-items="@Html.GetEnumSelectList<ClothesMaterial>()">
+        </select>
     </div>
+
 
     <div class="mb-3 d-flex justify-content-between">
         <button type="submit" class="btn btn-primary" asp-page-handler="Update">Update</button>

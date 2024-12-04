@@ -3,15 +3,15 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebApp.Data;
 using WebApp.Models.ViewModels;
 
-namespace WebApp.Pages.ClothingItems
+namespace WebApp.Pages.AddViewPages
 {
     public class EditModel : PageModel
     {
-        private readonly TestDbContext dbContext;
+        private readonly RealDbContext dbContext;
         [BindProperty]
         public EditClothingItemViewModel EditClothingItemViewModel { get; set; }
 
-        public EditModel(TestDbContext dbContext)
+        public EditModel(RealDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
@@ -19,15 +19,15 @@ namespace WebApp.Pages.ClothingItems
 
         public void OnGet(Guid id)
         {
-            var clothingItem = dbContext.TestClothingItems.Find(id);
+            var clothingItem = dbContext.ClothingItems.Find(id);
 
             if (clothingItem != null) {
                 //Convert domain model to view model
                 EditClothingItemViewModel = new EditClothingItemViewModel()
                 {
-                    Id = clothingItem.Id,
+                    Id = clothingItem.ClothingItemId,
                     Color = clothingItem.Color,
-                    Type = clothingItem.Type,
+                    Material = clothingItem.Material,
                 };
             }
         }
@@ -36,12 +36,12 @@ namespace WebApp.Pages.ClothingItems
         {
 
             if (EditClothingItemViewModel != null) {
-                var existingClothingItem = dbContext.TestClothingItems.Find(EditClothingItemViewModel.Id);
+                var existingClothingItem = dbContext.ClothingItems.Find(EditClothingItemViewModel.Id);
                 if (existingClothingItem != null)
                 {
                     //Convert ViewModel to DomainModel
                     existingClothingItem.Color = EditClothingItemViewModel.Color;
-                    existingClothingItem.Type = EditClothingItemViewModel.Type;
+                    existingClothingItem.Material = EditClothingItemViewModel.Material;
 
                     dbContext.SaveChanges();
 
@@ -54,11 +54,11 @@ namespace WebApp.Pages.ClothingItems
 
         public IActionResult OnPostDelete()
         {
-            var existingClothingItem = dbContext.TestClothingItems.Find(EditClothingItemViewModel.Id);
+            var existingClothingItem = dbContext.ClothingItems.Find(EditClothingItemViewModel.Id);
 
             if (existingClothingItem != null)
             {
-                dbContext.TestClothingItems.Remove(existingClothingItem);
+                dbContext.ClothingItems.Remove(existingClothingItem);
                 dbContext.SaveChanges();
 
                 return RedirectToPage("/ClothingItems/List");

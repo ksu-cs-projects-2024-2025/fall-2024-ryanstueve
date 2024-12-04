@@ -54,16 +54,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryanj/source/repos/fall-2024-ryanstueve/ClosetApp/WebApp/Pages/ClothingItems/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xvdGhpbmdJdGVtc1xBZGQuY3NodG1s
+[C:/Users/ryanj/source/repos/fall-2024-ryanstueve/ClosetApp/WebApp/Pages/AddViewPages/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVmlld1BhZ2VzXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryanj/source/repos/fall-2024-ryanstueve/ClosetApp/WebApp/Pages/ClothingItems/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xvdGhpbmdJdGVtc1xFZGl0LmNzaHRtbA==
+[C:/Users/ryanj/source/repos/fall-2024-ryanstueve/ClosetApp/WebApp/Pages/AddViewPages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVmlld1BhZ2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryanj/source/repos/fall-2024-ryanstueve/ClosetApp/WebApp/Pages/ClothingItems/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xvdGhpbmdJdGVtc1xMaXN0LmNzaHRtbA==
+[C:/Users/ryanj/source/repos/fall-2024-ryanstueve/ClosetApp/WebApp/Pages/AddViewPages/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVmlld1BhZ2VzXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ryanj/source/repos/fall-2024-ryanstueve/ClosetApp/WebApp/Pages/Error.cshtml]
