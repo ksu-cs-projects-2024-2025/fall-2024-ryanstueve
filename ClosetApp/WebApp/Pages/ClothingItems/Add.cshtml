@@ -1,0 +1,91 @@
+﻿@page
+@model WebApp.Pages.ClothingItems.AddModel
+@using WebApp.Models.Domain;
+@{
+    var message = ViewData["Message"]?.ToString();
+
+}
+<form method="post" enctype="multipart/form-data">
+    <h1 class="mb-3">Add New Item</h1>
+
+    @if (!string.IsNullOrWhiteSpace(message))
+    {
+        <div class="alert alert-success" role="alert">
+            @message
+        </div>
+    }
+
+    <input type="hidden" asp-for="AddClothingItemRequest.Id" />
+
+    <div class="mb-3">
+        <label class="form-label">Color</label>
+        <!--input type="text" class="form-control" asp-for="AddClothingItemRequest.Color"-->
+        <select class="form-control"
+                asp-for="AddClothingItemRequest.Color"
+                asp-items="@Html.GetEnumSelectList<ClothesColor>()">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Material</label>
+        <!--input type="text" class="form-control" asp-for="AddClothingItemRequest.Material"-->
+        <select class="form-control"
+                asp-for="AddClothingItemRequest.Material"
+                asp-items="@Html.GetEnumSelectList<ClothesMaterial>()">
+        </select>
+    </div>
+     
+    <div class="mb-3">
+        <label class="form-label">Clothing Type</label>
+        <!--input type="text" class="form-control" asp-for="AddClothingItemRequest.Material"-->
+        <select id="ClothingType" name="ClothingType" onchange="showSpecificFields()">
+            <option value="">--Select--</option>
+            <option value="Top">Top</option>
+            <option value="Bottom">Bottom</option>
+        </select>
+    </div>
+
+    <div id="topFields" style="display:none;">
+        
+        <select class="form-control" 
+                asp-for="AddClothingItemRequest.TopDesign"
+                asp-items="@Html.GetEnumSelectList<TopDesign>()">
+        </select>
+    </div>
+
+    <!-- Pants-specific fields -->
+    <div id="bottomFields" style="display:none;">
+        
+        <select class="form-control"
+                asp-for="AddClothingItemRequest.BottomDesign"
+                asp-items="@Html.GetEnumSelectList<BottomDesign>()">
+        </select>
+    </div>
+
+    <div>
+        <label class="form-label">Image</label>
+        <input type="file" class="form-control" asp-for="AddClothingItemRequest.Image" />
+    </div>
+    <div>
+        <input asp-page-handler="Upload" class="btn" type="submit" value="Upload">
+
+    </div>
+</form>
+
+<script>
+    function showSpecificFields() {
+        // Get the selected clothing type
+        var clothingType = document.getElementById("ClothingType").value;
+
+        // Hide all specific fields first
+        document.getElementById("topFields").style.display = "none";
+        document.getElementById("bottomFields").style.display = "none";
+
+        // Show the fields relevant to the selected clothing type
+        if (clothingType === "Top") {
+            document.getElementById("topFields").style.display = "block";
+        } else if (clothingType === "Bottom") {
+            document.getElementById("bottomFields").style.display = "block";
+        }
+    }
+</script>

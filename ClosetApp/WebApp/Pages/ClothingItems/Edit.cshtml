@@ -1,0 +1,90 @@
+﻿@page "{id:Guid}"
+@model WebApp.Pages.ClothingItems.EditModel
+@using WebApp.Models.Domain;
+@{
+    var message = ViewData["Message"]?.ToString();
+}
+
+
+<form method="post">
+    <h1 class="mb-3">Edit Clothing Item</h1>
+
+    @if(!string.IsNullOrWhiteSpace(message))
+    {
+        <div class="alert alert-success" role="alert">@message</div>
+    }
+
+    <div class="mb-3">
+        <label class="form-label">Id</label>
+        <input type="text" class="form-control" asp-for="EditClothingItemViewModel.Id" readonly/>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Color</label>
+        <!--input type="text" class="form-control" asp-for="AddClothingItemRequest.Color" -->
+        <select class="form-control"
+                asp-for="EditClothingItemViewModel.Color"
+                asp-items="@Html.GetEnumSelectList<ClothesColor>()">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Type</label>
+        <!--input type="text" class="form-control" asp-for="EditClothingItemViewModel.Material" -->
+        <select class="form-control"
+                asp-for="EditClothingItemViewModel.Material"
+                asp-items="@Html.GetEnumSelectList<ClothesMaterial>()">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Clothing Type</label>
+        <!--input type="text" class="form-control" asp-for="AddClothingItemRequest.Material"-->
+        <select id="ClothingType" name="ClothingType" onchange="showSpecificFields()" asp-for="EditClothingItemViewModel">
+            <option value="">--Select--</option>
+            <option value="Top">Top</option>
+            <option value="Bottom">Bottom</option>
+        </select>
+    </div>
+
+    <div id="topFields" style="display:none;">
+
+        <select class="form-control"
+                asp-for="EditClothingItemViewModel.TopDesign"
+                asp-items="@Html.GetEnumSelectList<TopDesign>()">
+        </select>
+    </div>
+
+    <div id="bottomFields" style="display:none;">
+
+        <select class="form-control"
+                asp-for="EditClothingItemViewModel.BottomDesign"
+                asp-items="@Html.GetEnumSelectList<BottomDesign>()">
+        </select>
+    </div>
+
+
+    <div class="mb-3 d-flex justify-content-between">
+        <button type="submit" class="btn btn-primary" asp-page-handler="Update">Update</button>
+        <button type="submit" class="btn btn-danger" asp-page-handler="Delete">Delete</button>
+    </div>
+
+</form>
+
+<script>
+    function showSpecificFields() {
+        // Get the selected clothing type
+        var clothingType = document.getElementById("ClothingType").value;
+
+        // Hide all specific fields first
+        document.getElementById("topFields").style.display = "none";
+        document.getElementById("bottomFields").style.display = "none";
+
+        // Show the fields relevant to the selected clothing type
+        if (clothingType === "Top") {
+            document.getElementById("topFields").style.display = "block";
+        } else if (clothingType === "Bottom") {
+            document.getElementById("bottomFields").style.display = "block";
+        }
+    }
+</script>

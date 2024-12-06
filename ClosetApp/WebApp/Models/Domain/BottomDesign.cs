@@ -2,6 +2,7 @@
 {
     public enum BottomDesign
     {
+        none,
         jeans,
         dressPants,
         pants,

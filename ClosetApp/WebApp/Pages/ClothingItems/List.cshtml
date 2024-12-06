@@ -1,0 +1,69 @@
+﻿@page
+@model WebApp.Pages.ClothingItems.ListModel
+@using Models.Domain;
+@{
+    
+}
+@using System.Drawing;
+@functions{
+    public Image byteArrayToImage(byte[] byteArrayIn)
+    {
+        using (var ms = new MemoryStream(byteArrayIn))
+        {
+            return Image.FromStream(ms);
+        }
+    }
+}
+
+<h1 class="mb-3">List of Clothing Items</h1>
+
+@if (Model.ClothingItems != null && Model.ClothingItems.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Color</th>
+                <th>Material</th>
+                <th>Top Design</th>
+                <th>Bottom Design</th>
+                <th>Image</th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model.ClothingItems)
+            {
+                if(item.UserId == Model.appUser.UserId)
+                {
+                    <tr>
+                        <td>@item.ClothingItemId</td>
+                        <td>@item.Color</td>
+                        <td>@item.Material</td>
+                        @if (item is BottomLayerClothingItem)
+                        {
+                            BottomLayerClothingItem newItem = (BottomLayerClothingItem)item;
+                            <td>none</td>
+                            <td>@newItem.Design</td>
+                        }
+                        @if (item is TopBaseClothingItem)
+                        {
+                            TopBaseClothingItem newItem = (TopBaseClothingItem)item;
+                            <td>@newItem.Design</td>
+                            <td>none</td>
+                        }
+                        <td><img src="data:image/*;base64, @Convert.ToBase64String(item.Image)" height="10%" width="10%" /></td>
+                        <td>
+                            <a href="/ClothingItems/Edit/@item.ClothingItemId" class="btn btn-dark">Edit</a>
+                        </td>
+                    </tr>
+                }
+                
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No clothing items found</p>
+}

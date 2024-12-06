@@ -4,7 +4,7 @@
     {
         public BottomDesign Design { get; set; }
 
-        public BottomLayerClothingItem(ClothesColor color, ClothesMaterial material, BottomDesign design, Byte[] image) : base(color, material, image)
+        public BottomLayerClothingItem(ClothesColor color, ClothesMaterial material, BottomDesign design, Byte[] image, Guid userId) : base(color, material, image, userId)
         {
             Design = design;
         }

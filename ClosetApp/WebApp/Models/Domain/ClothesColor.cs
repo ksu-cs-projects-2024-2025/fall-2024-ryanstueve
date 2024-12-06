@@ -2,6 +2,7 @@
 {
     public enum ClothesColor
     {
+        none,
         red,
         orange,
         yellow,

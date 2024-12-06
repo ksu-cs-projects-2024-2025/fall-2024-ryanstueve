@@ -21,11 +21,11 @@ builder.Services.AddDbContext<RealDbContext>(options =>
     options.UseSqlServer(connectionString);
 });
 
-builder.Services.AddDbContext<TestDbContext>(options =>
+/*builder.Services.AddDbContext<TestDbContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("TestConnetionString");
     options.UseSqlServer(connectionString);
-});
+});*/
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ApplicationDbContext>();
 
 var app = builder.Build();

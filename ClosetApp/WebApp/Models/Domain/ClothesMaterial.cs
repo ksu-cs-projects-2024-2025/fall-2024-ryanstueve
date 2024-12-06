@@ -2,6 +2,7 @@
 {
     public enum ClothesMaterial
     {
+        none,
         cotton,
         linen,
         wool,

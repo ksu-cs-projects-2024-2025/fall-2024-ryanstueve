@@ -2,6 +2,7 @@
 {
     public enum TopDesign
     {
+        none,
         shortSleeve,
         longSleeve,
         dressShirt,

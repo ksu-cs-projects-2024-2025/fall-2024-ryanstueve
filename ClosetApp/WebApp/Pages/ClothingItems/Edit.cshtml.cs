@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebApp.Data;
 using WebApp.Models.ViewModels;
 
-namespace WebApp.Pages.AddViewPages
+namespace WebApp.Pages.ClothingItems
 {
     public class EditModel : PageModel
     {

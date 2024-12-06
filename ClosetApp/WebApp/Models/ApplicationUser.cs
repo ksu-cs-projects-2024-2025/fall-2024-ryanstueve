@@ -11,5 +11,12 @@ namespace WebApp.Models
         public string Address { get; set; } = "";
 
         public DateTime CreatedAt { get; set; }
+
+        public Guid UserId {
+            get
+            {
+                return new Guid(this.Id);
+            }
+        }
     }
 }

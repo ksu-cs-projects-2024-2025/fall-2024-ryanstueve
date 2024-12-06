@@ -3,7 +3,7 @@
 
 // Write your JavaScript code.
 const body = document.querySelector('body');
-
+/*
 if (body.classList.contains('home-page')) {
 
     let slideIndex = 1;
@@ -54,4 +54,4 @@ if (body.classList.contains('home-page')) {
         slides1[slideIndex1 - 1].style.display = "block";
     }
 }
-
+*/
