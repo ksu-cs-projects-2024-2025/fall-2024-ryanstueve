@@ -7,11 +7,11 @@
 <body class="home-page">
     <a href="/User">User</a>
     <h1>Your Closet</h1>
-    <!--
+    
     <div class="slideshow-container">
         @foreach(var item in Model.ClothingItems)
         {
-            if(item is TopBaseClothingItem)
+            if (item is TopBaseClothingItem && item.UserId == Model.appUser.UserId || item is TopBaseClothingItem && item.UserId == new Guid("ba3adfea-ef93-4639-85bc-e59d0f794571"))
             {
                 <div class="mySlides">
                     <img src="data:image/*;base64, @Convert.ToBase64String(item.Image)" height="20%" width="20%" />
@@ -26,16 +26,22 @@
     <div class="slideshow-container1">
         @foreach (var item in Model.ClothingItems)
         {
-            if(item is BottomLayerClothingItem)
+            if ((item is BottomLayerClothingItem) && item.UserId == Model.appUser.UserId || item is BottomLayerClothingItem && item.UserId == new Guid("ba3adfea-ef93-4639-85bc-e59d0f794571"))
             {
                 <div class="mySlides1">
                     <img src="data:image/*;base64, @Convert.ToBase64String(item.Image)" height="20%" width="20%" />
                 </div>
             }
         }
-        <a class="prev1" onclick="plusSlides1(-1)" >&#10094;</a>
+        <a class="prev1" onclick="onClickHandler()">&#10094;</a>
         <a class="next1" onclick="plusSlides1(1)">&#10095;</a>
         
     </div>
-    -->
+    <button id="sendDataButton" type="button">Make Outfit</button>
+
+    <form id="form" method="post">
+        <input type="hidden" name="callCSharp" value="true" />
+    </form>
+
 </body>
+

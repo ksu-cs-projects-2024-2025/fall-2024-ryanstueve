@@ -38,6 +38,20 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseAuthorization();
+/*zxcc
+app.Use(async (context, next) =>
+{
+    var path = context.Request.Path;
+    if (!path.StartsWithSegments("/Account") && context.Session.GetString("Username")==null)
+    if(!context.Session.Keys.Contains("User_ID") && context.Request.Path != "Account/Login")
+        {
+            context.Response.Redirect("Account/Login");
+            return;
+        }
+    await next();
+});C*/
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

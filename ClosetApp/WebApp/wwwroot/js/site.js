@@ -3,7 +3,7 @@
 
 // Write your JavaScript code.
 const body = document.querySelector('body');
-/*
+
 if (body.classList.contains('home-page')) {
 
     let slideIndex = 1;
@@ -53,5 +53,14 @@ if (body.classList.contains('home-page')) {
         }
         slides1[slideIndex1 - 1].style.display = "block";
     }
+
+    function callCSharpFunction() {
+        // Triggering the form submission (which will call the C# handler)
+        document.getElementById("form").submit();
+    }
+
+    function onClickHandler() {
+        plusSlides1(-1);  // Calling the JavaScript function
+        callCSharpFunction();    // Calling the C# function by submitting the form
+    }
 }
-*/
