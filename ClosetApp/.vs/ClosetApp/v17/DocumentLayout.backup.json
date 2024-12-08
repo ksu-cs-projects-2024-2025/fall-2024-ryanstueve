@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -291,20 +291,20 @@
               "RelativeDocumentMoniker": "WebApp\\Pages\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Index.cshtml.cs*",
               "RelativeToolTip": "WebApp\\Pages\\Index.cshtml.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAA1wC8AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T17:52:21.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\site.js",
               "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\wwwroot\\js\\site.js",
               "RelativeToolTip": "WebApp\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwD0AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-10-07T17:42:50.601Z",
               "EditorCaption": ""
@@ -350,13 +350,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Index.cshtml",
               "RelativeToolTip": "WebApp\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-25T06:20:47.379Z",
               "EditorCaption": ""

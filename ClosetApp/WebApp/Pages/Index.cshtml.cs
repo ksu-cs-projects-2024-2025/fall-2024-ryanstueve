@@ -11,6 +11,7 @@ using WebApp.Models.Domain;
 namespace WebApp.Pages
 {
     [Authorize]
+    [IgnoreAntiforgeryToken(Order = 1001)]
     public class IndexModel : PageModel
     {
 
@@ -40,13 +41,13 @@ namespace WebApp.Pages
             ClothingItems = dbContext.ClothingItems.ToList();
         }
 
-        public void OnPost()
+        public IActionResult OnPostCSharpFunction()
         {
             if (Request.Form["callCSharp"] == "true")
             {
                 SlideIndex = 3;
-                OnGet();
             }
+            return Content("C# function executed");
         }
 
         //create a button to save an outfit. You would write a function that gets the current n values of

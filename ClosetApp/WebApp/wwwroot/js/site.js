@@ -54,13 +54,25 @@ if (body.classList.contains('home-page')) {
         slides1[slideIndex1 - 1].style.display = "block";
     }
 
-    function callCSharpFunction() {
-        // Triggering the form submission (which will call the C# handler)
-        document.getElementById("form").submit();
+    function CSharpFunction() {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/Index?handler=CSharpFunction", true);  // Adjust the URL as necessary
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+        // Send the request
+        xhr.send();
+
+        xhr.onload = function () {
+            if (xhr.status == 200) {
+                alert("C# function called successfully!");
+            } else {
+                alert("Error calling C# function");
+            }
+        };
     }
 
     function onClickHandler() {
         plusSlides1(-1);  // Calling the JavaScript function
-        callCSharpFunction();    // Calling the C# function by submitting the form
+        CSharpFunction();    // Calling the C# function by submitting the form
     }
 }
