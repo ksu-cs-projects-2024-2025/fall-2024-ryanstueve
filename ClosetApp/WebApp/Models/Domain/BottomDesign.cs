@@ -1,5 +1,8 @@
 ﻿namespace WebApp.Models.Domain
 {
+    /// <summary>
+    /// the design for bottom clothing items
+    /// </summary>
     public enum BottomDesign
     {
         none,

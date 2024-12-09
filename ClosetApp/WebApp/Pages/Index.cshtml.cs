@@ -10,6 +10,9 @@ using WebApp.Models.Domain;
 
 namespace WebApp.Pages
 {
+    /// <summary>
+    /// the main page, where people can see their clothing items and create outfits 
+    /// </summary>
     [Authorize]
     [IgnoreAntiforgeryToken(Order = 1001)]
     public class IndexModel : PageModel
@@ -81,19 +84,28 @@ namespace WebApp.Pages
         public int SlideIndex { get; set; } = 1;
         public int SlideIndex1 { get; set; } = 1;
 
-
+        /// <summary>
+        /// the constructor
+        /// </summary>
+        /// <param name="dbContext">database</param>
+        /// <param name="userManager">the user manager</param>
         public IndexModel(RealDbContext dbContext, UserManager<ApplicationUser> userManager)
         {
             this.dbContext = dbContext;
             this.userManager = userManager;
         }
-
+        /// <summary>
+        /// on get sets up the slide indexes, which allow us to create outfits
+        /// </summary>
         public void OnGet()
         {
             HttpContext.Session.SetInt32("SlideIndex", SlideIndex);
             HttpContext.Session.SetInt32("SlideIndex1", SlideIndex1);
         }
-
+        /// <summary>
+        /// each of these following 4 functions keep track of the current clothing item being shown
+        /// </summary>
+        /// <returns></returns>
         public IActionResult OnPostCSharpFunction1()
         {
             SlideIndex = HttpContext.Session.GetInt32("SlideIndex") ?? 0;
@@ -161,7 +173,10 @@ namespace WebApp.Pages
 
             return new EmptyResult();
         }
-
+        /// <summary>
+        /// creates outfit
+        /// </summary>
+        /// <returns></returns>
         public async Task<IActionResult> OnPostMakeOutfit()
         {
             Console.WriteLine("in the method");
@@ -183,16 +198,5 @@ namespace WebApp.Pages
         //top outfits and all of the bottom outfits. then you would use the two numbers to get the outfits
         //you would then add those to the outfits table.
 
-        /*
-        public class ReceiveDataModel
-        {
-            public int Number { get; set; }
-        }
-
-        public IActionResult OnPostReceiveData([FromBody] ReceiveDataModel data)
-        {
-            var number = data?.Number;
-            return new JsonResult(new { status = "success", receivedData = number });
-        }*/
     }
 }

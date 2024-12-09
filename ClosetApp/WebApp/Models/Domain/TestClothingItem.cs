@@ -2,6 +2,9 @@
 
 namespace WebApp.Models.Domain
 {
+    /// <summary>
+    /// simply an old test clothing item class
+    /// </summary>
     public class TestClothingItem
     {
 

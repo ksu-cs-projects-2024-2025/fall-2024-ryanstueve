@@ -5,6 +5,9 @@ using WebApp.Models;
 
 namespace WebApp.Services
 {
+    /// <summary>
+    /// data base context used for the creation of the user functions (login, create, regiser)
+    /// </summary>
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)

@@ -18,7 +18,7 @@ using WebApp.Models;
 
 namespace WebApp.Areas.Identity.Pages.Account
 {
-
+//used .net templates and tutorials to create the login.
     public class LoginModel : PageModel
     {
         private readonly SignInManager<ApplicationUser> _signInManager;

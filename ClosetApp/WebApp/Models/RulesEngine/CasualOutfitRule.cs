@@ -10,8 +10,14 @@ using WebApp.Models.Domain;
 
 namespace WebApp.Models.RulesEngine
 {
+    /// <summary>
+    /// a rule for the rules engine that creates casual outfits
+    /// </summary>
     public class CasualOutfitRule : Rule
     {
+        /// <summary>
+        /// defines the rule
+        /// </summary>
         public override void Define()
         {
             ClothingItem topItem = default;
@@ -29,13 +35,22 @@ namespace WebApp.Models.RulesEngine
                .Do(ctx => Console.WriteLine("matched outfit"))
                .Do(ctx => System.Diagnostics.Debug.WriteLine("matched outfit"));
         }
-
+        /// <summary>
+        /// adds the item to the outfit
+        /// </summary>
+        /// <param name="topItem">top item</param>
+        /// <param name="bottomItem">bottom item</param>
+        /// <returns></returns>
         public static Outfit AddItemToOutfit(ClothingItem topItem, ClothingItem bottomItem)
         {
             Outfit outfit = new Outfit(new List<ClothingItem> { topItem, bottomItem }, topItem.UserId);
             return outfit;
         }
-
+        /// <summary>
+        /// filteres to a casual top
+        /// </summary>
+        /// <param name="item">the item in question</param>
+        /// <returns></returns>
         public static bool CasualTop(ClothingItem item)
         {
             if (item is TopBaseClothingItem)
@@ -63,7 +78,11 @@ namespace WebApp.Models.RulesEngine
             }
 
         }
-
+        /// <summary>
+        /// filters to a casual bottom
+        /// </summary>
+        /// <param name="item">the item in question</param>
+        /// <returns></returns>
         public static bool CasualBottom(ClothingItem item)
         {
             if (item is BottomLayerClothingItem)

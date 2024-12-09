@@ -2,6 +2,9 @@
 
 namespace WebApp.Models.ViewModels
 {
+    /// <summary>
+    /// a class representation of a clothing item meant for editing
+    /// </summary>
     public class EditClothingItemViewModel
     {
         public Guid Id { get; set; }

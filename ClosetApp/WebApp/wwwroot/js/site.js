@@ -9,16 +9,15 @@ if (body.classList.contains('home-page')) {
     let slideIndex = 1;
     showSlides(slideIndex);
 
-    // Next/previous controls
+    // controls for navigating slides.
     function plusSlides(n) {
         showSlides(slideIndex += n);
     }
 
-    // Thumbnail image controls
     function currentSlide(n) {
         showSlides(slideIndex = n);
     }
-
+    //logic for slide control.
     function showSlides(n) {
         let i;
         let slides = document.getElementsByClassName("mySlides");
@@ -27,18 +26,22 @@ if (body.classList.contains('home-page')) {
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
-        slides[slideIndex - 1].style.display = "block";
+        if (slides[slideIndex - 1] != null)
+        {
+            slides[slideIndex - 1].style.display = "block";
+        }
+        
     }
 
     let slideIndex1 = 1;
     showSlides1(slideIndex1);
 
-    // Next/previous controls
+
     function plusSlides1(n1) {
         showSlides1(slideIndex1 += n1);
     }
 
-    // Thumbnail image controls
+
     function currentSlide1(n1) {
         showSlides1(slideIndex1 = n1);
     }
@@ -51,9 +54,11 @@ if (body.classList.contains('home-page')) {
         for (i1 = 0; i1 < slides1.length; i1++) {
             slides1[i1].style.display = "none";
         }
-        slides1[slideIndex1 - 1].style.display = "block";
+        if (slides1[slideIndex1 - 1] != null) {
+            slides1[slideIndex1 - 1].style.display = "block";
+        }
     }
-
+    //control to tell the c# backend which clothing item is being shown.
     function CSharpFunction1() {
         var xhr = new XMLHttpRequest();
         xhr.open("POST", "/Index?handler=CSharpFunction1", true);  // Adjust the URL as necessary
@@ -64,7 +69,6 @@ if (body.classList.contains('home-page')) {
 
         xhr.onload = function () {
             if (xhr.status == 200) {
-                alert("C# function called successfully!");
             } else {
                 alert("Error calling C# function");
             }
@@ -81,7 +85,6 @@ if (body.classList.contains('home-page')) {
 
         xhr.onload = function () {
             if (xhr.status == 200) {
-                alert("C# function called successfully!");
             } else {
                 alert("Error calling C# function");
             }
@@ -98,7 +101,6 @@ if (body.classList.contains('home-page')) {
 
         xhr.onload = function () {
             if (xhr.status == 200) {
-                alert("C# function called successfully!");
             } else {
                 alert("Error calling C# function");
             }
@@ -115,13 +117,12 @@ if (body.classList.contains('home-page')) {
 
         xhr.onload = function () {
             if (xhr.status == 200) {
-                alert("C# function called successfully!");
             } else {
                 alert("Error calling C# function");
             }
         };
     }
-
+    //saves outfit
     document.getElementById('outfitButton').addEventListener('click', function (event) {
         event.preventDefault();
         var xhr = new XMLHttpRequest();
@@ -142,21 +143,21 @@ if (body.classList.contains('home-page')) {
         xhr.send();
     });
     
-
+    //calling each function for the two actions: switching slide and updating backend
     function onClickHandler1() {
-        plusSlides(-1);  // Calling the JavaScript function
-        CSharpFunction1();    // Calling the C# function by submitting the form
+        plusSlides(-1);  
+        CSharpFunction1();   
     }
     function onClickHandler2() {
-        plusSlides(1);  // Calling the JavaScript function
-        CSharpFunction2();    // Calling the C# function by submitting the form
+        plusSlides(1);  
+        CSharpFunction2();    
     }
     function onClickHandler3() {
-        plusSlides1(-1);  // Calling the JavaScript function
-        CSharpFunction3();    // Calling the C# function by submitting the form
+        plusSlides1(-1);  
+        CSharpFunction3();   
     }
     function onClickHandler4() {
-        plusSlides1(1);  // Calling the JavaScript function
-        CSharpFunction4();    // Calling the C# function by submitting the form
+        plusSlides1(1);  
+        CSharpFunction4();    
     }
 }

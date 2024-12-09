@@ -14,6 +14,9 @@ using System.Reflection;
 
 namespace WebApp.Pages.ClothingItems
 {
+    /// <summary>
+    /// an Outfit control that allows people to see their outfits and generate ones too
+    /// </summary>
     public class OutfitsModel : PageModel
     {
 
@@ -43,20 +46,31 @@ namespace WebApp.Pages.ClothingItems
                 return _outfits = dbContext.Outfits.Include(o => o.OutfitClothes).ToList();
             }
         }
-
+        /// <summary>
+        /// the constructor
+        /// </summary>
+        /// <param name="dbContext">databse</param>
+        /// <param name="userManager">user manager</param>
         public OutfitsModel(RealDbContext dbContext, UserManager<ApplicationUser> userManager)
         {
             this.dbContext = dbContext;
             this.userManager = userManager;
         }
-
+        /// <summary>
+        /// on get doesn't do anything here
+        /// </summary>
         public void OnGet()
         {
             
         }
+        /// <summary>
+        /// deletes outfit
+        /// </summary>
+        /// <param name="id">outfit getting deleted</param>
+        /// <returns></returns>
         public IActionResult OnPostDelete(Guid id)
         {
-            // Find the outfit to delete
+
             var outfit = dbContext.Outfits.Find(id);
             if (outfit != null)
             {
@@ -64,10 +78,13 @@ namespace WebApp.Pages.ClothingItems
                 dbContext.SaveChanges();
             }
 
-            // Redirect back to the index page after deletion
+
             return RedirectToAction("Index");
         }
-
+        /// <summary>
+        /// generates new outfits based on rules engine
+        /// </summary>
+        /// <returns></returns>
         public IActionResult OnPostGenerate()
         {
             var repository = new RuleRepository();
@@ -75,10 +92,10 @@ namespace WebApp.Pages.ClothingItems
 
             repository.Load(x => x.From(Assembly.GetExecutingAssembly()));
 
-            //Compile rules
+
             var factory = repository.Compile();
 
-            //Create a working session
+
             var session = factory.CreateSession();
 
             List<Outfit> outfits;
@@ -94,9 +111,22 @@ namespace WebApp.Pages.ClothingItems
             session.Fire();
 
             outfits = session.Query<Outfit>().ToList();
+            
             foreach(var outfit in outfits)
             {
-                dbContext.Outfits.Add(outfit);
+                bool ogOutfit = true;
+                foreach (var sndOutfit in dbContext.Outfits.Include(o => o.OutfitClothes).ToList()) {
+
+                    if (outfit.OutfitClothes.Contains(sndOutfit.OutfitClothes[0]) && outfit.OutfitClothes.Contains(sndOutfit.OutfitClothes[1]))
+                    {
+                        ogOutfit = false;
+                        break;
+                    }
+                }
+                if(ogOutfit)
+                {
+                    dbContext.Outfits.Add(outfit);
+                }
             }
             dbContext.SaveChanges();
             return RedirectToAction("Index");

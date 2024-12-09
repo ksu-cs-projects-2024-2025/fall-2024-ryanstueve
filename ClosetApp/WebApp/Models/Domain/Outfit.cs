@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace WebApp.Models.Domain
 {
+    /// <summary>
+    /// representation of an outfit
+    /// </summary>
     public class Outfit
     {
         public Guid OutfitId { get; set; }

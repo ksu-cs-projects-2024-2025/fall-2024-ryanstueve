@@ -1,10 +1,15 @@
 ﻿namespace WebApp.Models.Domain
 {
+    /// <summary>
+    /// representation of top clothing items, inheriting from the base clothing item
+    /// </summary>
     public class TopBaseClothingItem : ClothingItem
     {
         public TopDesign Design { get; set; }
 
-        public TopBaseClothingItem(ClothesColor color, ClothesMaterial material, TopDesign design, Byte[] image, Guid userId) : base(color, material, image, userId)
+        public TopBaseClothingItem() { }
+
+        public TopBaseClothingItem(ClothesColor color, ClothesMaterial material, TopDesign design, string image, Guid userId) : base(color, material, image, userId)
         {
             Design = design;
         }

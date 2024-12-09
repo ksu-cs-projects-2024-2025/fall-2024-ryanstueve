@@ -1,5 +1,8 @@
 ﻿namespace WebApp.Models.Domain
 {
+    /// <summary>
+    /// colors to choose from for clothing items
+    /// </summary>
     public enum ClothesColor
     {
         none,

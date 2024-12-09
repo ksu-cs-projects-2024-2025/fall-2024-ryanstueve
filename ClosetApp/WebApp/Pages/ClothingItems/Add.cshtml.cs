@@ -11,6 +11,9 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace WebApp.Pages.ClothingItems
 {
+    /// <summary>
+    /// the add control where users can add clothing items to their closet.
+    /// </summary>
     [Authorize]
     public class AddModel : PageModel
     {
@@ -18,17 +21,28 @@ namespace WebApp.Pages.ClothingItems
 
         private readonly UserManager<ApplicationUser> userManager;
 
-        public ApplicationUser? appUser;
+        private readonly IWebHostEnvironment _environment;
 
-        public AddModel(RealDbContext dbContext, UserManager<ApplicationUser> userManager)
+        public ApplicationUser? appUser;
+        /// <summary>
+        /// the constructor
+        /// </summary>
+        /// <param name="dbContext">the database</param>
+        /// <param name="userManager">the user manager</param>
+        /// <param name="environment">web environment</param>
+        public AddModel(RealDbContext dbContext, UserManager<ApplicationUser> userManager, IWebHostEnvironment environment)
         {
             this.dbContext = dbContext;
             this.userManager = userManager;
+            this._environment = environment;    
         }
 
 
         [BindProperty]
         public AddClothingItemViewModel AddClothingItemRequest { get; set; }
+        /// <summary>
+        /// the on get method, sets some things up
+        /// </summary>
         public void OnGet()
         {
             var task = userManager.GetUserAsync(User);
@@ -39,13 +53,26 @@ namespace WebApp.Pages.ClothingItems
                 Id = appUser.UserId
             };
         }
-
+        /// <summary>
+        /// uploads the current item to the database
+        /// </summary>
+        /// <returns></returns>
         public async Task<IActionResult> OnPostUploadAsync()
         {
-            using (var memoryStream = new MemoryStream())
+            if (AddClothingItemRequest.Image != null && AddClothingItemRequest.Image.Length > 0)
             {
-                await AddClothingItemRequest.Image.CopyToAsync(memoryStream);
-                if(AddClothingItemRequest.TopDesign == TopDesign.none)
+                var fileName = Path.GetRandomFileName() + Path.GetExtension(AddClothingItemRequest.Image.FileName);
+                var filePath = Path.Combine(_environment.WebRootPath, "images", "clothing", fileName);
+                Directory.CreateDirectory(Path.GetDirectoryName(filePath));
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await AddClothingItemRequest.Image.CopyToAsync(stream);
+                }
+
+
+
+                if (AddClothingItemRequest.TopDesign == TopDesign.none)
                 {
                     AddClothingItemRequest.Type = ClothingType.Bottom;
                 }
@@ -53,9 +80,9 @@ namespace WebApp.Pages.ClothingItems
                 {
                     AddClothingItemRequest.Type = ClothingType.Top;
                 }
-                //Convert viewmodel to domain model
+
                 ClothingItem clothingItemDomainModel;
-                if(AddClothingItemRequest.Type == ClothingType.Top) 
+                if (AddClothingItemRequest.Type == ClothingType.Top)
                 {
 
                     clothingItemDomainModel = new TopBaseClothingItem
@@ -63,7 +90,7 @@ namespace WebApp.Pages.ClothingItems
                         AddClothingItemRequest.Color,
                         AddClothingItemRequest.Material,
                         AddClothingItemRequest.TopDesign,
-                        memoryStream.ToArray(),
+                        Path.Combine("images", "clothing", fileName),
                         AddClothingItemRequest.Id
                     );
                 }
@@ -74,7 +101,7 @@ namespace WebApp.Pages.ClothingItems
                         AddClothingItemRequest.Color,
                         AddClothingItemRequest.Material,
                         AddClothingItemRequest.BottomDesign,
-                        memoryStream.ToArray(),
+                        Path.Combine("images", "clothing", fileName),
                         AddClothingItemRequest.Id
                     );
                 }
@@ -84,20 +111,6 @@ namespace WebApp.Pages.ClothingItems
                 ViewData["Message"] = "Clothing Item added Successfully!";
             }
             return Page();
-        }
-
-        public byte[] imageToByteArray(System.Drawing.Image imageIn)
-        {
-            MemoryStream ms = new MemoryStream();
-            imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
-            return ms.ToArray();
-        }
-
-        public Image byteArrayToImage(byte[] byteArrayIn)
-        {
-            MemoryStream ms = new MemoryStream(byteArrayIn);
-            Image returnImage = Image.FromStream(ms);
-            return returnImage;
         }
     }
 }

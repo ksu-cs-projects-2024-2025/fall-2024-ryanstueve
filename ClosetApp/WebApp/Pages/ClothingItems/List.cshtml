@@ -5,15 +5,7 @@
     
 }
 @using System.Drawing;
-@functions{
-    public Image byteArrayToImage(byte[] byteArrayIn)
-    {
-        using (var ms = new MemoryStream(byteArrayIn))
-        {
-            return Image.FromStream(ms);
-        }
-    }
-}
+
 
 <h1 class="mb-3">List of Clothing Items</h1>
 
@@ -52,7 +44,7 @@
                             <td>@newItem.Design</td>
                             <td>none</td>
                         }
-                        <td><img src="data:image/*;base64, @Convert.ToBase64String(item.Image)" height="10%" width="10%" /></td>
+                        <td><img src="~/@item.ImagePath"  height="10%" width="10%" /></td>
                         <td>
                             <a href="/ClothingItems/Edit/@item.ClothingItemId" class="btn btn-dark">Edit</a>
                         </td>

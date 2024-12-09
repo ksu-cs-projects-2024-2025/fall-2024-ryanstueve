@@ -3,6 +3,7 @@ using WebApp.Models.Domain;
 
 namespace WebApp.Data
 {
+    //the database context representing the database
     public class RealDbContext : DbContext
     {
         public RealDbContext(DbContextOptions<RealDbContext> options) : base(options)

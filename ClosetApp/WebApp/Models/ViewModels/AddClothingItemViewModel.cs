@@ -4,6 +4,9 @@ using WebApp.Models.Domain;
 
 namespace WebApp.Models.ViewModels
 {
+    /// <summary>
+    /// a view model representation of a clothing item that allows for adding clothingitems
+    /// </summary>
     public class AddClothingItemViewModel
     {
         public ClothesColor Color { get; set; }

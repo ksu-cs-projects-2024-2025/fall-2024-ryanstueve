@@ -5,24 +5,33 @@ using WebApp.Models.ViewModels;
 
 namespace WebApp.Pages.ClothingItems
 {
+    /// <summary>
+    /// an edit control that allows for users to edit their clothing items
+    /// </summary>
     public class EditModel : PageModel
     {
         private readonly RealDbContext dbContext;
         [BindProperty]
         public EditClothingItemViewModel EditClothingItemViewModel { get; set; }
-
+        /// <summary>
+        /// the constructor
+        /// </summary>
+        /// <param name="dbContext">the database</param>
         public EditModel(RealDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
 
-
+        /// <summary>
+        /// the on get method sets up a few things
+        /// </summary>
+        /// <param name="id"></param>
         public void OnGet(Guid id)
         {
             var clothingItem = dbContext.ClothingItems.Find(id);
 
             if (clothingItem != null) {
-                //Convert domain model to view model
+
                 EditClothingItemViewModel = new EditClothingItemViewModel()
                 {
                     Id = clothingItem.ClothingItemId,
@@ -31,7 +40,9 @@ namespace WebApp.Pages.ClothingItems
                 };
             }
         }
-
+        /// <summary>
+        /// updates the clothing item and sends those changes to the database
+        /// </summary>
         public void OnPostUpdate()
         {
 
@@ -39,7 +50,7 @@ namespace WebApp.Pages.ClothingItems
                 var existingClothingItem = dbContext.ClothingItems.Find(EditClothingItemViewModel.Id);
                 if (existingClothingItem != null)
                 {
-                    //Convert ViewModel to DomainModel
+
                     existingClothingItem.Color = EditClothingItemViewModel.Color;
                     existingClothingItem.Material = EditClothingItemViewModel.Material;
 
@@ -51,7 +62,10 @@ namespace WebApp.Pages.ClothingItems
 
             }
         }
-
+        /// <summary>
+        /// deletes an item and updates the database
+        /// </summary>
+        /// <returns></returns>
         public IActionResult OnPostDelete()
         {
             var existingClothingItem = dbContext.ClothingItems.Find(EditClothingItemViewModel.Id);
