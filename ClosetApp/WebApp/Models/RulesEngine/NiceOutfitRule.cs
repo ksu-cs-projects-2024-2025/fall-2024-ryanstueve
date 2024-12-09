@@ -31,7 +31,7 @@ namespace WebApp.Models.RulesEngine
 
         public static Outfit AddItemToOutfit(ClothingItem topItem, ClothingItem bottomItem)
         {
-            Outfit outfit = new Outfit(new List<ClothingItem> { topItem, bottomItem });
+            Outfit outfit = new Outfit(new List<ClothingItem> { topItem, bottomItem }, topItem.UserId);
             return outfit;
         }
 

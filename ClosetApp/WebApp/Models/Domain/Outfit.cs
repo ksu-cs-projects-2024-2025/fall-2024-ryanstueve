@@ -16,9 +16,10 @@ namespace WebApp.Models.Domain
         public Outfit()
         {
         }
-        public Outfit(List<ClothingItem> outfitClothes) 
+        public Outfit(List<ClothingItem> outfitClothes, Guid userId) 
         {
             OutfitClothes = outfitClothes;
+            UserId = userId;
         }
     }
 }

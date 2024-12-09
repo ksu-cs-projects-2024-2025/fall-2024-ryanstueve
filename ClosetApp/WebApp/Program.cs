@@ -28,6 +28,16 @@ builder.Services.AddDbContext<RealDbContext>(options =>
 });*/
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ApplicationDbContext>();
 
+builder.Services.AddDistributedMemoryCache(); // Required to store session in memory
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Set session timeout as needed
+    options.Cookie.HttpOnly = true; // Make session cookie accessible only to the server
+    options.Cookie.IsEssential = true; // Ensure the cookie is essential for the app to work
+});
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -58,6 +68,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapRazorPages();
 

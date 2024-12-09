@@ -19,12 +19,67 @@ namespace WebApp.Pages
 
         private readonly UserManager<ApplicationUser> userManager;
 
-        public ApplicationUser? appUser;
+        private ApplicationUser? _appUser;
 
-        public List<ClothingItem> ClothingItems { get; set; }
+        public ApplicationUser? appUser
+        {
+            get
+            {
+                var task = userManager.GetUserAsync(User);
+                task.Wait();
+                _appUser = task.Result;
+                return _appUser;
+            }
+        }
 
-        public int SlideIndex { get; set; } = 0;
-        public int SlideIndex1 { get; set; }
+        public List<ClothingItem> ClothingItems {
+            get
+            {
+                return dbContext.ClothingItems.ToList();
+            } 
+        }
+
+        private List<BottomLayerClothingItem> _bottomItems;
+
+        public List<BottomLayerClothingItem> BottomItems {
+            get
+            {
+                _bottomItems = new List<BottomLayerClothingItem>();
+                foreach (var item in ClothingItems)
+                {
+                    if (item.UserId == appUser.UserId || item.UserId == new Guid("ba3adfea-ef93-4639-85bc-e59d0f794571"))
+                    {
+                        if (item is BottomLayerClothingItem)
+                        {
+                            _bottomItems.Add((BottomLayerClothingItem)item);
+                        }
+                    }
+                }
+                return _bottomItems;
+            }}
+
+        private List<TopBaseClothingItem> _topItems;
+        public List<TopBaseClothingItem> TopItems
+        {
+            get
+            {
+                _topItems = new List<TopBaseClothingItem>();
+                foreach (var item in ClothingItems)
+                {
+                    if (item.UserId == appUser.UserId || item.UserId == new Guid("ba3adfea-ef93-4639-85bc-e59d0f794571"))
+                    {
+                        if (item is TopBaseClothingItem)
+                        {
+                            _topItems.Add((TopBaseClothingItem)item);
+                        }
+                    }
+                }
+                return _topItems;
+            }
+        }
+
+        public int SlideIndex { get; set; } = 1;
+        public int SlideIndex1 { get; set; } = 1;
 
 
         public IndexModel(RealDbContext dbContext, UserManager<ApplicationUser> userManager)
@@ -35,19 +90,92 @@ namespace WebApp.Pages
 
         public void OnGet()
         {
-            var task = userManager.GetUserAsync(User);
-            task.Wait();
-            appUser = task.Result;
-            ClothingItems = dbContext.ClothingItems.ToList();
+            HttpContext.Session.SetInt32("SlideIndex", SlideIndex);
+            HttpContext.Session.SetInt32("SlideIndex1", SlideIndex1);
         }
 
-        public IActionResult OnPostCSharpFunction()
+        public IActionResult OnPostCSharpFunction1()
         {
-            if (Request.Form["callCSharp"] == "true")
+            SlideIndex = HttpContext.Session.GetInt32("SlideIndex") ?? 0;
+
+            SlideIndex--;
+            if (SlideIndex > TopItems.Count)
             {
-                SlideIndex = 3;
+                SlideIndex = 1;
             }
-            return Content("C# function executed");
+            if (SlideIndex < 1)
+            {
+                SlideIndex = TopItems.Count;
+            }
+            HttpContext.Session.SetInt32("SlideIndex", SlideIndex);
+
+            return new EmptyResult();
+        }
+        public IActionResult OnPostCSharpFunction2()
+        {
+            SlideIndex = HttpContext.Session.GetInt32("SlideIndex") ?? 0;
+            SlideIndex++;
+            if (SlideIndex > TopItems.Count)
+            {
+                SlideIndex = 1;
+            }
+            if (SlideIndex < 1)
+            {
+                SlideIndex = TopItems.Count;
+            }
+            HttpContext.Session.SetInt32("SlideIndex", SlideIndex);
+
+            return new EmptyResult();
+        }
+        public IActionResult OnPostCSharpFunction3()
+        {
+
+            SlideIndex1 = HttpContext.Session.GetInt32("SlideIndex1") ?? 0;
+            SlideIndex1--;
+            if (SlideIndex1 > BottomItems.Count)
+            {
+                SlideIndex1 = 1;
+            }
+            if (SlideIndex1 < 1)
+            {
+                SlideIndex1 = BottomItems.Count;
+            }
+            HttpContext.Session.SetInt32("SlideIndex1", SlideIndex1);
+
+            return new EmptyResult();
+        }
+
+        public IActionResult OnPostCSharpFunction4()
+        {
+            SlideIndex1 = HttpContext.Session.GetInt32("SlideIndex1") ?? 0;
+            SlideIndex1++;
+            if (SlideIndex1 > BottomItems.Count) 
+            {
+                SlideIndex1 = 1;
+            }
+            if (SlideIndex1 < 1) 
+            {
+                SlideIndex1 = BottomItems.Count;
+            }
+            HttpContext.Session.SetInt32("SlideIndex1", SlideIndex1);
+
+            return new EmptyResult();
+        }
+
+        public async Task<IActionResult> OnPostMakeOutfit()
+        {
+            Console.WriteLine("in the method");
+            SlideIndex = HttpContext.Session.GetInt32("SlideIndex") ?? 0;
+            SlideIndex1 = HttpContext.Session.GetInt32("SlideIndex1") ?? 0;
+            Outfit outfit = new Outfit();
+            outfit.OutfitClothes = new List<ClothingItem>
+            {
+                TopItems[SlideIndex-1], BottomItems[SlideIndex1-1]
+            };
+            outfit.UserId = appUser.UserId;
+            dbContext.Outfits.Add(outfit);
+            await dbContext.SaveChangesAsync();
+            return Content("Outfit Created");
         }
 
         //create a button to save an outfit. You would write a function that gets the current n values of

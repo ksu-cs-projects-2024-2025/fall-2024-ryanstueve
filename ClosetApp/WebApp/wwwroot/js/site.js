@@ -54,9 +54,9 @@ if (body.classList.contains('home-page')) {
         slides1[slideIndex1 - 1].style.display = "block";
     }
 
-    function CSharpFunction() {
+    function CSharpFunction1() {
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "/Index?handler=CSharpFunction", true);  // Adjust the URL as necessary
+        xhr.open("POST", "/Index?handler=CSharpFunction1", true);  // Adjust the URL as necessary
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
         // Send the request
@@ -71,8 +71,92 @@ if (body.classList.contains('home-page')) {
         };
     }
 
-    function onClickHandler() {
+    function CSharpFunction2() {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/Index?handler=CSharpFunction2", true);  // Adjust the URL as necessary
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+        // Send the request
+        xhr.send();
+
+        xhr.onload = function () {
+            if (xhr.status == 200) {
+                alert("C# function called successfully!");
+            } else {
+                alert("Error calling C# function");
+            }
+        };
+    }
+
+    function CSharpFunction3() {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/Index?handler=CSharpFunction3", true);  // Adjust the URL as necessary
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+        // Send the request
+        xhr.send();
+
+        xhr.onload = function () {
+            if (xhr.status == 200) {
+                alert("C# function called successfully!");
+            } else {
+                alert("Error calling C# function");
+            }
+        };
+    }
+
+    function CSharpFunction4() {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/Index?handler=CSharpFunction4", true);  // Adjust the URL as necessary
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+        // Send the request
+        xhr.send();
+
+        xhr.onload = function () {
+            if (xhr.status == 200) {
+                alert("C# function called successfully!");
+            } else {
+                alert("Error calling C# function");
+            }
+        };
+    }
+
+    document.getElementById('outfitButton').addEventListener('click', function (event) {
+        event.preventDefault();
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/Index?handler=MakeOutfit", true);
+        xhr.setRequestHeader("Content-Type", "application/json");
+
+        xhr.onload = function () {
+            if (xhr.status >= 200 && xhr.status < 300) {
+                alert('Success: ' + xhr.responseText);
+            } else {
+                alert('Error: ' + xhr.status + ' ' + xhr.statusText);
+            }
+        };
+        xhr.onerror = function () {
+            alert('Request failed');
+        };
+
+        xhr.send();
+    });
+    
+
+    function onClickHandler1() {
+        plusSlides(-1);  // Calling the JavaScript function
+        CSharpFunction1();    // Calling the C# function by submitting the form
+    }
+    function onClickHandler2() {
+        plusSlides(1);  // Calling the JavaScript function
+        CSharpFunction2();    // Calling the C# function by submitting the form
+    }
+    function onClickHandler3() {
         plusSlides1(-1);  // Calling the JavaScript function
-        CSharpFunction();    // Calling the C# function by submitting the form
+        CSharpFunction3();    // Calling the C# function by submitting the form
+    }
+    function onClickHandler4() {
+        plusSlides1(1);  // Calling the JavaScript function
+        CSharpFunction4();    // Calling the C# function by submitting the form
     }
 }
