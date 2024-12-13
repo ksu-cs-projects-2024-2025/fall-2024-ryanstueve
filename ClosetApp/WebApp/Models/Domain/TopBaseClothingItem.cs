@@ -13,5 +13,10 @@
         {
             Design = design;
         }
+
+        public TopBaseClothingItem(ClothesColor color, ClothesMaterial material, TopDesign design, string image, Guid userId, Guid id) : base(color, material, image, userId, id)
+        {
+            Design = design;
+        }
     }
 }

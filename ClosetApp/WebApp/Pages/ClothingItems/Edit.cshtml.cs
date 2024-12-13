@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebApp.Data;
+using WebApp.Models.Domain;
 using WebApp.Models.ViewModels;
 
 namespace WebApp.Pages.ClothingItems
@@ -36,7 +37,7 @@ namespace WebApp.Pages.ClothingItems
                 {
                     Id = clothingItem.ClothingItemId,
                     Color = clothingItem.Color,
-                    Material = clothingItem.Material,
+                    Material = clothingItem.Material
                 };
             }
         }
@@ -50,9 +51,36 @@ namespace WebApp.Pages.ClothingItems
                 var existingClothingItem = dbContext.ClothingItems.Find(EditClothingItemViewModel.Id);
                 if (existingClothingItem != null)
                 {
+                    string image = existingClothingItem.ImagePath;
+                    Guid guid = existingClothingItem.UserId;
+                    ClothingItem newClothingItem;
+                    if(existingClothingItem is TopBaseClothingItem)
+                    {
+                        newClothingItem = new TopBaseClothingItem()
+                        {
+                            Material = EditClothingItemViewModel.Material,
+                            Color = EditClothingItemViewModel.Color,
+                            Design = EditClothingItemViewModel.TopDesign,
+                            ImagePath = image,
+                            UserId = guid,
+                            ClothingItemId = EditClothingItemViewModel.Id
+                        };
+                    }
+                    else //(existingClothingItem is BottomLayerClothingItem)
+                    {
+                        newClothingItem = new BottomLayerClothingItem()
+                        {
+                            Material = EditClothingItemViewModel.Material,
+                            Color = EditClothingItemViewModel.Color,
+                            Design = EditClothingItemViewModel.BottomDesign,
+                            ImagePath = image,
+                            UserId = guid,
+                            ClothingItemId = EditClothingItemViewModel.Id
+                        };
+                    }
 
-                    existingClothingItem.Color = EditClothingItemViewModel.Color;
-                    existingClothingItem.Material = EditClothingItemViewModel.Material;
+                    dbContext.ClothingItems.Remove(existingClothingItem);
+                    dbContext.ClothingItems.Add(newClothingItem);
 
                     dbContext.SaveChanges();
 

@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\outfits.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\outfits.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\migrations\\realdb\\20241209202507_updatedatabaseimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\realdb\\20241209202507_updatedatabaseimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\domain\\topbaseclothingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\domain\\topbaseclothingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\viewmodels\\editclothingitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\viewmodels\\editclothingitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\domain\\bottomlayerclothingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,28 +27,12 @@
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\domain\\clothingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\outfits.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\outfits.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\viewmodels\\addclothingitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\viewmodels\\addclothingitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\domain\\testclothingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\domain\\testclothingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\rulesengine\\niceoutfitrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,108 +47,36 @@
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\rulesengine\\athleticoutfitrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\domain\\outfit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\domain\\outfit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\viewmodels\\editclothingitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\viewmodels\\editclothingitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\data\\realdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\data\\realdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\outfits.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\outfits.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\migrations\\20240925044654_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\20240925044654_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\migrations\\20240925045239_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\20240925045239_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\migrations\\realdb\\20241204191918_firstrealdbcontextmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\realdb\\20241204191918_firstrealdbcontextmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\migrations\\realdb\\realdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\realdb\\realdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\outfits.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\outfits.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\domain\\topdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\domain\\topdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\domain\\outfit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\domain\\outfit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\domain\\clothingtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -199,32 +87,148 @@
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\domain\\clothesmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\domain\\clothescolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\domain\\clothescolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\domain\\topdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\domain\\topdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\domain\\bottomdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\domain\\bottomdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\domain\\clothescolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\domain\\clothescolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\clothingitems\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\clothingitems\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\models\\domain\\testclothingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\domain\\testclothingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\data\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\data\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\migrations\\realdb\\20241204191918_firstrealdbcontextmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\realdb\\20241204191918_firstrealdbcontextmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\migrations\\realdb\\20241209202507_updatedatabaseimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\realdb\\20241209202507_updatedatabaseimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\migrations\\20240925044654_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\20240925044654_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\migrations\\20240925045239_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\20240925045239_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\migrations\\realdb\\realdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\realdb\\realdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -237,10 +241,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|solutionrelative:webapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6876161-9093-4066-A33F-38AE2A046838}|WebApp\\WebApp.csproj|c:\\users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\closetapp\\webapp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -261,7 +261,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -281,59 +281,345 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T05:56:50.557Z",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Edit.cshtml.cs",
+              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\Edit.cshtml.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwFQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T23:56:31.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditClothingItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\ViewModels\\EditClothingItemViewModel.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\ViewModels\\EditClothingItemViewModel.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\ViewModels\\EditClothingItemViewModel.cs",
+              "RelativeToolTip": "WebApp\\Models\\ViewModels\\EditClothingItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T00:03:07.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TopBaseClothingItem.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\TopBaseClothingItem.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\TopBaseClothingItem.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\TopBaseClothingItem.cs",
+              "RelativeToolTip": "WebApp\\Models\\Domain\\TopBaseClothingItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:58:48.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T04:55:54.505Z",
+              "Title": "Add.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Add.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\Add.cshtml.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Add.cshtml.cs",
+              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\Add.cshtml.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAArwFcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T22:32:35.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "BottomLayerClothingItem.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\BottomLayerClothingItem.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\BottomLayerClothingItem.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\BottomLayerClothingItem.cs",
+              "RelativeToolTip": "WebApp\\Models\\Domain\\BottomLayerClothingItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:59:33.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClothingItem.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothingItem.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\ClothingItem.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothingItem.cs",
+              "RelativeToolTip": "WebApp\\Models\\Domain\\ClothingItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwB0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:57:32.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddClothingItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\ViewModels\\AddClothingItemViewModel.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\ViewModels\\AddClothingItemViewModel.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\ViewModels\\AddClothingItemViewModel.cs",
+              "RelativeToolTip": "WebApp\\Models\\ViewModels\\AddClothingItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T22:34:07.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Edit.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T23:55:40.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NiceOutfitRule.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\RulesEngine\\NiceOutfitRule.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\RulesEngine\\NiceOutfitRule.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\RulesEngine\\NiceOutfitRule.cs",
+              "RelativeToolTip": "WebApp\\Models\\RulesEngine\\NiceOutfitRule.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwEsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:45:41.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CasualOutfitRule.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\RulesEngine\\CasualOutfitRule.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\RulesEngine\\CasualOutfitRule.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\RulesEngine\\CasualOutfitRule.cs",
+              "RelativeToolTip": "WebApp\\Models\\RulesEngine\\CasualOutfitRule.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwFMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:22:44.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Outfits.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Outfits.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\Outfits.cshtml.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Outfits.cshtml.cs",
+              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\Outfits.cshtml.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwFQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T21:21:42.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AthleticOutfitRule.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\RulesEngine\\AthleticOutfitRule.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\RulesEngine\\AthleticOutfitRule.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\RulesEngine\\AthleticOutfitRule.cs",
+              "RelativeToolTip": "WebApp\\Models\\RulesEngine\\AthleticOutfitRule.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwCgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:16:55.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RealDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Data\\RealDbContext.cs",
+              "RelativeDocumentMoniker": "WebApp\\Data\\RealDbContext.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Data\\RealDbContext.cs",
+              "RelativeToolTip": "WebApp\\Data\\RealDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:19:50.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "WebApp\\Pages\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "WebApp\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAuwKUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAAUwLAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T17:52:21.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "WebApp\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAADoAAAAAAAAAAAAgwEcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-07T17:42:50.601Z",
+              "DocumentIndex": 11,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Add.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\Add.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Add.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T22:21:18.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
+              "Title": "List.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\List.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\List.cshtml.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\List.cshtml.cs",
+              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\List.cshtml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T23:13:26.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Outfits.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Outfits.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\Outfits.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Outfits.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\Outfits.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T21:21:40.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "WebApp\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:44:46.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Outfit.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\Outfit.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\Outfit.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\Outfit.cs",
+              "RelativeToolTip": "WebApp\\Models\\Domain\\Outfit.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:57:53.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClothingType.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothingType.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\ClothingType.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothingType.cs",
+              "RelativeToolTip": "WebApp\\Models\\Domain\\ClothingType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T18:22:18.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClothesMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothesMaterial.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\ClothesMaterial.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothesMaterial.cs",
+              "RelativeToolTip": "WebApp\\Models\\Domain\\ClothesMaterial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:58:26.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClothesColor.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothesColor.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\ClothesColor.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothesColor.cs",
+              "RelativeToolTip": "WebApp\\Models\\Domain\\ClothesColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:58:16.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TopDesign.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\TopDesign.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\TopDesign.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\TopDesign.cs",
+              "RelativeToolTip": "WebApp\\Models\\Domain\\TopDesign.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:59:06.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BottomDesign.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\BottomDesign.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\BottomDesign.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\BottomDesign.cs",
+              "RelativeToolTip": "WebApp\\Models\\Domain\\BottomDesign.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:59:47.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T05:56:50.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T04:55:54.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Pages\\Shared\\_Layout.cshtml",
@@ -346,33 +632,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Outfits.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Outfits.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\Outfits.cshtml.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Outfits.cshtml.cs*",
-              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\Outfits.cshtml.cs*",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAkwGYAAACMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T21:21:42.501Z",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\appsettings.json",
+              "RelativeToolTip": "WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-01T21:48:27.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BottomLayerClothingItem.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\BottomLayerClothingItem.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\BottomLayerClothingItem.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\BottomLayerClothingItem.cs",
-              "RelativeToolTip": "WebApp\\Models\\Domain\\BottomLayerClothingItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:59:33.602Z",
+              "DocumentIndex": 29,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\List.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\List.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\List.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\List.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T23:13:07.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 28,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T22:16:02.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Pages\\Index.cshtml",
@@ -385,228 +684,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20241209202507_UpdateDatabaseImages.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Migrations\\RealDb\\20241209202507_UpdateDatabaseImages.cs",
-              "RelativeDocumentMoniker": "WebApp\\Migrations\\RealDb\\20241209202507_UpdateDatabaseImages.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Migrations\\RealDb\\20241209202507_UpdateDatabaseImages.cs",
-              "RelativeToolTip": "WebApp\\Migrations\\RealDb\\20241209202507_UpdateDatabaseImages.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T20:25:07.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\List.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\List.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\List.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\List.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T23:13:07.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ClothingItem.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothingItem.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\ClothingItem.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothingItem.cs",
-              "RelativeToolTip": "WebApp\\Models\\Domain\\ClothingItem.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwA0AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:57:32.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TopBaseClothingItem.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\TopBaseClothingItem.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\TopBaseClothingItem.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\TopBaseClothingItem.cs",
-              "RelativeToolTip": "WebApp\\Models\\Domain\\TopBaseClothingItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:58:48.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Add.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Add.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\Add.cshtml.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Add.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\Add.cshtml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAYwDIAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T22:32:35.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Outfits.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Outfits.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\Outfits.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Outfits.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\Outfits.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T21:21:40.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Edit.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\Edit.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T23:55:40.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AddClothingItemViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\ViewModels\\AddClothingItemViewModel.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\ViewModels\\AddClothingItemViewModel.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\ViewModels\\AddClothingItemViewModel.cs",
-              "RelativeToolTip": "WebApp\\Models\\ViewModels\\AddClothingItemViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T22:34:07.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 31,
               "Title": "TestClothingItem.cs",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\TestClothingItem.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\TestClothingItem.cs",
               "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\TestClothingItem.cs",
               "RelativeToolTip": "WebApp\\Models\\Domain\\TestClothingItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T21:20:34.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Add.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\Add.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Add.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\Add.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 32,
+              "Title": "TestDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Data\\TestDbContext.cs",
+              "RelativeDocumentMoniker": "WebApp\\Data\\TestDbContext.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Data\\TestDbContext.cs",
+              "RelativeToolTip": "WebApp\\Data\\TestDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T21:07:46.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:57:55.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Services\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebApp\\Services\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Services\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebApp\\Services\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:37:40.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Error.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T22:21:18.552Z",
+              "WhenOpened": "2024-12-06T02:26:09.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Outfit.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\Outfit.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\Outfit.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\Outfit.cs",
-              "RelativeToolTip": "WebApp\\Models\\Domain\\Outfit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:57:53.333Z",
+              "DocumentIndex": 36,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T18:46:37.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "NiceOutfitRule.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\RulesEngine\\NiceOutfitRule.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\RulesEngine\\NiceOutfitRule.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\RulesEngine\\NiceOutfitRule.cs",
-              "RelativeToolTip": "WebApp\\Models\\RulesEngine\\NiceOutfitRule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:45:41.525Z",
+              "DocumentIndex": 37,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T19:00:38.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CasualOutfitRule.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\RulesEngine\\CasualOutfitRule.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\RulesEngine\\CasualOutfitRule.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\RulesEngine\\CasualOutfitRule.cs",
-              "RelativeToolTip": "WebApp\\Models\\RulesEngine\\CasualOutfitRule.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCIAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T18:22:44.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AthleticOutfitRule.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\RulesEngine\\AthleticOutfitRule.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\RulesEngine\\AthleticOutfitRule.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\RulesEngine\\AthleticOutfitRule.cs",
-              "RelativeToolTip": "WebApp\\Models\\RulesEngine\\AthleticOutfitRule.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T18:16:55.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\Edit.cshtml.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\Edit.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\Edit.cshtml.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T23:56:31.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EditClothingItemViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\ViewModels\\EditClothingItemViewModel.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\ViewModels\\EditClothingItemViewModel.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\ViewModels\\EditClothingItemViewModel.cs",
-              "RelativeToolTip": "WebApp\\Models\\ViewModels\\EditClothingItemViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T00:03:07.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "RealDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Data\\RealDbContext.cs",
-              "RelativeDocumentMoniker": "WebApp\\Data\\RealDbContext.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Data\\RealDbContext.cs",
-              "RelativeToolTip": "WebApp\\Data\\RealDbContext.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:19:50.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 38,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -619,7 +788,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 39,
+              "Title": "20241204191918_FirstRealDbContextMigration.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Migrations\\RealDb\\20241204191918_FirstRealDbContextMigration.cs",
+              "RelativeDocumentMoniker": "WebApp\\Migrations\\RealDb\\20241204191918_FirstRealDbContextMigration.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Migrations\\RealDb\\20241204191918_FirstRealDbContextMigration.cs",
+              "RelativeToolTip": "WebApp\\Migrations\\RealDb\\20241204191918_FirstRealDbContextMigration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:19:18.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T19:09:10.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T19:09:06.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T19:09:08.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T04:59:49.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T06:11:44.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:57:41.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T22:14:53.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WebApp\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAqwJEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-07T17:42:50.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20241209202507_UpdateDatabaseImages.cs",
+              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Migrations\\RealDb\\20241209202507_UpdateDatabaseImages.cs",
+              "RelativeDocumentMoniker": "WebApp\\Migrations\\RealDb\\20241209202507_UpdateDatabaseImages.cs",
+              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Migrations\\RealDb\\20241209202507_UpdateDatabaseImages.cs",
+              "RelativeToolTip": "WebApp\\Migrations\\RealDb\\20241209202507_UpdateDatabaseImages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T20:25:07.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "WebApp\\Pages\\Shared\\_Layout.cshtml.css",
@@ -632,81 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "List.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\List.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\ClothingItems\\List.cshtml.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\ClothingItems\\List.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\ClothingItems\\List.cshtml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T23:13:26.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Program.cs",
-              "RelativeDocumentMoniker": "WebApp\\Program.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Program.cs",
-              "RelativeToolTip": "WebApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T04:57:55.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Services\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "WebApp\\Services\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Services\\ApplicationDbContext.cs",
-              "RelativeToolTip": "WebApp\\Services\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T04:37:40.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T18:46:37.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T01:57:41.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Error.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Error.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T02:26:09.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 51,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\site.css",
@@ -718,19 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T06:11:44.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 50,
               "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\wwwroot\\favicon.ico",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\favicon.ico",
@@ -742,19 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebApp\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebApp\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-05T22:16:02.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 52,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebApp\\appsettings.Development.json",
@@ -766,43 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\Privacy.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T02:36:42.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\appsettings.json",
-              "RelativeToolTip": "WebApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-01T21:48:27.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T19:00:38.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 53,
               "Title": "20240925044654_FirstMigration.cs",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Migrations\\20240925044654_FirstMigration.cs",
               "RelativeDocumentMoniker": "WebApp\\Migrations\\20240925044654_FirstMigration.cs",
@@ -814,7 +979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 54,
               "Title": "20240925045239_SecondMigration.cs",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Migrations\\20240925045239_SecondMigration.cs",
               "RelativeDocumentMoniker": "WebApp\\Migrations\\20240925045239_SecondMigration.cs",
@@ -838,7 +1003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 55,
               "Title": "RealDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Migrations\\RealDb\\RealDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "WebApp\\Migrations\\RealDb\\RealDbContextModelSnapshot.cs",
@@ -850,103 +1015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "20241204191918_FirstRealDbContextMigration.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Migrations\\RealDb\\20241204191918_FirstRealDbContextMigration.cs",
-              "RelativeDocumentMoniker": "WebApp\\Migrations\\RealDb\\20241204191918_FirstRealDbContextMigration.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Migrations\\RealDb\\20241204191918_FirstRealDbContextMigration.cs",
-              "RelativeToolTip": "WebApp\\Migrations\\RealDb\\20241204191918_FirstRealDbContextMigration.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T19:19:18.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "WebApp\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T04:44:46.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "TopDesign.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\TopDesign.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\TopDesign.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\TopDesign.cs",
-              "RelativeToolTip": "WebApp\\Models\\Domain\\TopDesign.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:59:06.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ClothingType.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothingType.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\ClothingType.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothingType.cs",
-              "RelativeToolTip": "WebApp\\Models\\Domain\\ClothingType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T18:22:18.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "ClothesMaterial.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothesMaterial.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\ClothesMaterial.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothesMaterial.cs",
-              "RelativeToolTip": "WebApp\\Models\\Domain\\ClothesMaterial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:58:26.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "BottomDesign.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\BottomDesign.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\BottomDesign.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\BottomDesign.cs",
-              "RelativeToolTip": "WebApp\\Models\\Domain\\BottomDesign.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:59:47.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ClothesColor.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothesColor.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Domain\\ClothesColor.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Models\\Domain\\ClothesColor.cs",
-              "RelativeToolTip": "WebApp\\Models\\Domain\\ClothesColor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:58:16.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "TestDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Data\\TestDbContext.cs",
-              "RelativeDocumentMoniker": "WebApp\\Data\\TestDbContext.cs",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Data\\TestDbContext.cs",
-              "RelativeToolTip": "WebApp\\Data\\TestDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T21:07:46.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "WebApp\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -958,43 +1027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T19:09:10.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T19:09:08.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T19:09:06.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "WebApp.csproj",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\WebApp.csproj",
               "RelativeDocumentMoniker": "WebApp\\WebApp.csproj",
@@ -1006,7 +1039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -1018,7 +1051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -1027,18 +1060,6 @@
               "ViewState": "AgIAAG4AAAAAAAAAAAAWwIEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T05:49:55.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\ryanj\\source\\repos\\fall-2024-ryanstueve\\ClosetApp\\WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "WebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T04:59:49.755Z"
             },
             {
               "$type": "Document",

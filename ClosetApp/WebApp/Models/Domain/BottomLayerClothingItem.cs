@@ -13,5 +13,9 @@
         {
             Design = design;
         }
+        public BottomLayerClothingItem(ClothesColor color, ClothesMaterial material, BottomDesign design, string image, Guid userId,Guid id) : base(color, material, image, userId, id)
+        {
+            Design = design;
+        }
     }
 }

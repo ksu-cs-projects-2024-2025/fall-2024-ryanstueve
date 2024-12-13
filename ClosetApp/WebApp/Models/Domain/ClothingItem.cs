@@ -21,5 +21,13 @@
             ImagePath = imagePath;
             UserId = userId;
         }
+        public ClothingItem(ClothesColor color, ClothesMaterial material, string imagePath, Guid userId, Guid id)
+        {
+            Color = color;
+            Material = material;
+            ImagePath = imagePath;
+            UserId = userId;
+            ClothingItemId = id;
+        }
     }
 }
